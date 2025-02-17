@@ -111,13 +111,7 @@ Each of these models is trained on the password features and evaluated using var
 
 ## Model Evaluation
 
-After training the models, we evaluate their performance based on the following metrics:
-
-- **Accuracy**: The proportion of correct predictions.
-- **Confusion Matrix**: A matrix showing the performance of the classification model.
-- **Classification Report**: Detailed metrics such as precision, recall, and F1-score for each class.
-
-We will also use **cross-validation** to ensure that the models generalize well to new data.
+After training the models, we evaluate their performance and their runtime.
 
 ## Conclusion
 
