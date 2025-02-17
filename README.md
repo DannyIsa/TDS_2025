@@ -113,8 +113,12 @@ Each of these models is trained on the password features and evaluated using var
 
 After training the models, we evaluate their performance and their runtime.
 
+## Findings
+
+Our analysis shows that strong passwords are primarily defined by their `length`, with `entropy` and the presence of `uppercase` characters also contributing. Weaker passwords, while similarly influenced by `length`, tend to have low `entropy`. Surprisingly, the `sequential` feature had no significant impact on password strength.
+
 ## Conclusion
 
-By applying feature engineering and training machine learning models, we can predict the strength of a given password. The project demonstrates how important features like common password sequences, entropy, character diversity, and length can help differentiate between weak and strong passwords. Using machine learning models, we aim to automate the classification of passwords to improve cybersecurity practices.
+By applying feature engineering and training machine learning models, we can predict the strength of a given password with extreme accuracy. The project demonstrates how important features like common password sequences, entropy, character diversity, and length can help differentiate between weak and strong passwords. Using machine learning models, we aim to automate the classification of passwords to improve cybersecurity practices.
 
 The next steps in this project might involve fine-tuning the models, explore additional features, and deploy the solution as a pet-project or even a product that helps users choose a more secure password.
