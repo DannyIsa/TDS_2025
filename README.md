@@ -73,14 +73,41 @@ The length of a password is an important factor in determining its strength. Lon
 
 ## Machine Learning Models
 
-Once the feature engineering is complete, we use various machine learning algorithms seen in the course "TDS" (Theoretical Data Science) to classify passwords. The following models are used in this project:
+Once the feature engineering is complete, we use various machine learning algorithms including the ones seen in the course to classify passwords. We use `LazyClassifier`, which automatically trains and evaluates multiple machine learning models with minimal code. The models employed are:
 
-- **K-Nearest Neighbors (KNN)**: A simple, non-parametric classifier that categorizes a password based on the majority class of its nearest neighbors.
-- **Support Vector Machine (SVM)**: A powerful classifier that works by finding the optimal hyperplane to separate the data into different classes.
-- **Logistic Regression**: A widely used statistical model for binary classification.
-- **Random Forest Classifier**: An ensemble learning method that constructs multiple decision trees to make more robust predictions.
+- **LinearSVC**  
+- **SGDClassifier**  
+- **MLPClassifier**  
+- **Perceptron**  
+- **LogisticRegression**  
+- **LogisticRegressionCV**  
+- **SVC**  
+- **CalibratedClassifierCV**  
+- **PassiveAggressiveClassifier**  
+- **LabelPropagation**  
+- **LabelSpreading**  
+- **RandomForestClassifier**  
+- **GradientBoostingClassifier**  
+- **QuadraticDiscriminantAnalysis**  
+- **HistGradientBoostingClassifier**  
+- **RidgeClassifierCV**  
+- **RidgeClassifier**  
+- **AdaBoostClassifier**  
+- **ExtraTreesClassifier**  
+- **KNeighborsClassifier**  
+- **BaggingClassifier**  
+- **BernoulliNB**  
+- **LinearDiscriminantAnalysis**  
+- **GaussianNB**  
+- **NuSVC**  
+- **DecisionTreeClassifier**  
+- **NearestCentroid**  
+- **ExtraTreeClassifier**  
+- **CheckingClassifier**  
+- **DummyClassifier**  
 
 Each of these models is trained on the password features and evaluated using various performance metrics.
+
 
 ## Model Evaluation
 
@@ -96,4 +123,4 @@ We will also use **cross-validation** to ensure that the models generalize well 
 
 By applying feature engineering and training machine learning models, we can predict the strength of a given password. The project demonstrates how important features like common password sequences, entropy, character diversity, and length can help differentiate between weak and strong passwords. Using machine learning models, we aim to automate the classification of passwords to improve cybersecurity practices.
 
-The next steps in this project involve using popular and modern models, such as XGBoost and CatBoost, to fine-tune the models, explore additional features, and deploy the solution as part of a password management system.
+The next steps in this project might involve fine-tuning the models, explore additional features, and deploy the solution as a pet-project or even a product that helps users choose a more secure password.
