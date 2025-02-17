@@ -1,6 +1,6 @@
 # Password Strength Prediction
 
-This project uses Kaggle's **Password Strength Dataset** to predict the strength of a given password. Additionally, we employ feature engineering to extract meaningful patterns from the passwords, which help improve the accuracy of the machine learning model. Our goal is to classify passwords as **weak**, **average**, or **strong** based soley on their characteristics, which will be derived from the raw password. We also aim to determine which model performs best, based on what we've learned in the course ["Theory of Data Science"](https://aigner-horev.wixsite.com/eigen/tds) By Dr. Elad Aigner-Horev.
+This project uses Kaggle's **Password Strength Dataset** to predict the strength of a given password. Additionally, we employ feature engineering to extract meaningful patterns from the passwords, which help improve the accuracy of the machine learning model. Our goal is to classify passwords as **weak**, **average**, or **strong** based soley on their characteristics, which will be derived from the raw password. We also aim to determine which model performs best, based on what we've learned in the course ["Theory of Data Science"](https://aigner-horev.wixsite.com/eigen/tds)  by Dr. Elad Aigner-Horev.
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
